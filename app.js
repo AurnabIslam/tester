@@ -1,7 +1,7 @@
-const C19 = new Covid19;
+const Cov19 = new Covid19;
 const ui = new UI;
 
-C19.getData()
+Cov19.getData()
   .then(allData => {
     //allData.forEach(data => {
      //  console.log(data);
